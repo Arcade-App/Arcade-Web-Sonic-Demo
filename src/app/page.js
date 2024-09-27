@@ -116,7 +116,7 @@ export default function Home() {
         </div>
 
       </main>
-      <footer className="flex flex-col w-full pb-10 sm:pb-0 px-2 sm:px-0">
+      <footer className="flex flex-col w-full sm:pb-0 px-2 sm:px-0">
         <div className="rounded-md flex flex-col antialiased items-center justify-center">
           <InfiniteMovingCards
             items={games}
@@ -124,51 +124,6 @@ export default function Home() {
             speed="fast"
           />
         </div>
-        <div className="flex w-full justify-center">
-          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row w-full max-w-6xl items-center justify-between">
-            <div className="flex lg:flex-1 items-center space-x-3">
-              <a
-                className=" flex items-center place-items-start gap-2 hover:underline hover:underline-offset-4"
-                href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                © Built by Kshitij & Harsh for Code Collision Hack
-              </a>
-            </div>
-            <div className="flex gap-x-12">
-              <Link
-                className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://github.com/Arcade-App"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-
-                <i className="bx bxl-github" style={{ fontSize: '20px' }} ></i>
-                Github
-              </Link>
-              <Link
-                className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://x.com/harshbadhai28"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class='bx bxl-twitter' style={{ fontSize: '20px' }}></i>
-                Twitter
-              </Link>
-              <Link
-                className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://dorahacks.io/buidl/16671"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class='bx bx-code-alt' style={{ fontSize: '20px' }} ></i>
-                Dorahacks
-              </Link>
-            </div>
-          </div>
-        </div>
-
       </footer>
     </div>
   );
@@ -177,16 +132,12 @@ export default function Home() {
 
 const games = [
   {
-
     image: '/Game1.png'
   },
-
   {
-
     image: '/Game2.png'
   },
   {
-
     image: '/Game3.png'
   },
 
