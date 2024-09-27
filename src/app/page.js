@@ -4,7 +4,6 @@ import Link from "next/link";
 import { InfiniteMovingCards } from "./infinite-cards";
 
 
-
 export default function Home() {
   return (
     <div className="font-[family-name:var(--font-satoshi)] flex flex-col w-full items-center justify-items-center justify-between h-screen gap-16 sm:p-10 overflow-hidden">
@@ -22,7 +21,38 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="flex gap-x-12 ring-1 ring-inset rounded-full ring-green-500 ">
+            <div className="flex gap-x-12">
+              <Link
+                className="flex items-center gap-2 hover:text-arcade-400"
+                href="https://github.com/Arcade-App"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+
+                <i className="bx bxl-github" style={{ fontSize: '20px' }} ></i>
+                Github
+              </Link>
+              <Link
+                className="flex items-center gap-2 hover:text-arcade-400"
+                href="https://x.com/harshbadhai28"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class='bx bxl-twitter' style={{ fontSize: '20px' }}></i>
+                Twitter
+              </Link>
+              <Link
+                className="flex items-center gap-2 hover:text-arcade-400"
+                href="https://dorahacks.io/buidl/16671"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class='bx bx-code-alt' style={{ fontSize: '20px' }} ></i>
+                Dorahacks
+              </Link>
+            </div>
+
+            {   /*   <div className="flex gap-x-12 ring-1 ring-inset rounded-full ring-green-500 ">
               <Link
                 className=" flex items-center place-items-start gap-2 px-5 text-green-500 font-medium py-1"
                 href="https://explorer.aptoslabs.com/?network=devnet"
@@ -36,12 +66,28 @@ export default function Home() {
                 Live on Aptos Devnet
               </Link>
 
-            </div>
+            </div>   */}
           </div>
         </div>
       </header>
       <main className="flex flex-col gap-8 items-center sm:items-start">
         <div>
+          <div className="flex items-center justify-center">
+            <div className=" gap-x-12 ring-1 ring-inset rounded-full ring-green-500">
+              <Link
+                className="flex items-center place-items-start gap-2 px-5 text-green-500 font-medium py-1"
+                href="https://explorer.aptoslabs.com/?network=devnet"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                </span>
+                Live on Aptos Devnet
+              </Link>
+            </div>
+          </div>
           <h2 className=" font-black bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-7xl lg:text-8xl py-3 md:py-5 relative z-20  tracking-tight">
             CREATE.PLAY.WIN
           </h2>
@@ -73,9 +119,9 @@ export default function Home() {
       <footer className="flex flex-col w-full pb-10 sm:pb-0 px-2 sm:px-0">
         <div className="rounded-md flex flex-col antialiased items-center justify-center">
           <InfiniteMovingCards
-            items={testimonials}
+            items={games}
             direction="right"
-            speed="slow"
+            speed="fast"
           />
         </div>
         <div className="flex w-full justify-center">
@@ -129,36 +175,21 @@ export default function Home() {
 }
 
 
-const testimonials = [
+const games = [
   {
-    quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+
+    image: '/Game1.png'
+  },
+
+  {
+
+    image: '/Game2.png'
   },
   {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+
+    image: '/Game3.png'
   },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
-  },
+
 ];
 
 
