@@ -1,8 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Logo from "../../public/Logo.svg"
-
-
+import Favicon from "../../public/favicon.ico"
+import 'boxicons/css/boxicons.min.css';
 
 const satoshi = localFont({
   src: "./fonts/Satoshi-Variable.woff2",
@@ -20,7 +19,7 @@ const satoshiItalic = localFont({
 export const metadata = {
   title: "Arcade App",
   description: "On-Chain Games & Tournaments for your Community",
-  favicon: { Logo }
+  icons: [{ rel: 'icon', url: Favicon.src }],
 };
 
 
