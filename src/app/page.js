@@ -38,7 +38,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class='bx bxl-twitter' style={{ fontSize: '20px' }}></i>
+                <i className='bx bxl-twitter' style={{ fontSize: '20px' }}></i>
                 Twitter
               </Link>
               <Link
@@ -47,26 +47,12 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class='bx bx-code-alt' style={{ fontSize: '20px' }} ></i>
+                <i className='bx bx-code-alt' style={{ fontSize: '20px' }} ></i>
                 Dorahacks
               </Link>
             </div>
 
-            {   /*   <div className="flex gap-x-12 ring-1 ring-inset rounded-full ring-green-500 ">
-              <Link
-                className=" flex items-center place-items-start gap-2 px-5 text-green-500 font-medium py-1"
-                href="https://explorer.aptoslabs.com/?network=devnet"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span class="relative flex h-2 w-2">
-                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                  <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                </span>
-                Live on Aptos Devnet
-              </Link>
 
-            </div>   */}
           </div>
         </div>
       </header>
@@ -88,7 +74,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <h2 className=" font-black bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-7xl lg:text-8xl py-3 md:py-5 relative z-20  tracking-tight">
+          <h2 className=" font-black bg-clip-text text-transparent text-center bg-gradient-to-b  dark:from-white dark:to-arcade-400 text-4xl md:text-7xl lg:text-8xl py-3 md:py-5 relative z-20  tracking-tight">
             CREATE.PLAY.WIN
           </h2>
           <p className="max-w-2xl mx-auto text-sm md:text-2xl text-neutral-700 dark:text-neutral-400 text-center px-2">
