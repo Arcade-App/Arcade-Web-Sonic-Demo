@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Logo from "../../public/Logo.svg";
 import Link from "next/link";
-import { InfiniteMovingCards } from "./infinite-cards";
+import { InfiniteMovingCards } from "../components/infinite-cards";
 
 
 export default function Home() {
@@ -97,9 +97,8 @@ export default function Home() {
           <div className="flex gap-4 justify-center items-center flex-row py-6 px-5 ">
             <Link
               className="w-1/2 sm:w-1/4 font-bold rounded-md border border-solid border-transparent transition-colors flex items-center justify-center bg-arcade-400 text-background gap-2 hover:bg-arcade-500 text-md  h-12"
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/webapp"
+
             >
               Enter App
             </Link>
