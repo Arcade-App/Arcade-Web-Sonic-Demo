@@ -94,7 +94,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class='bx bxl-android' style={{ fontSize: '20px' }}></i>
+              <i className='bx bxl-android' style={{ fontSize: '20px' }}></i>
               Download APK
             </Link>
           </div>
