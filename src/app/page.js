@@ -117,15 +117,27 @@ export default function Home() {
 
 const games = [
   {
-    name:'game1',
+    name: 'game1',
     image: '/Game1.png'
   },
   {
-    name:'game2',
+    name: 'game2',
     image: '/Game2.png'
   },
   {
-    name:'game3',
+    name: 'game3',
+    image: '/Game3.png'
+  },
+  {
+    name: 'game4',
+    image: '/Game1.png'
+  },
+  {
+    name: 'game5',
+    image: '/Game2.png'
+  },
+  {
+    name: 'game6',
     image: '/Game3.png'
   },
 
