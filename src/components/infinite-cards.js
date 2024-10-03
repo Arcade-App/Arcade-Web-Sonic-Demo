@@ -73,7 +73,7 @@ export const InfiniteMovingCards = ({
           <li
             className=" max-w-full relative rounded-2xl flex-shrink-0  py-6  h-450px"
 
-            key={item.image}>
+            key={item.name}>
             <blockquote>
               <div
                 aria-hidden="true"
