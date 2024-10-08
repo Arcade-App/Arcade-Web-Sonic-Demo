@@ -28,13 +28,12 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-
-                <i className="bx bxl-github" style={{ fontSize: '20px' }} ></i>
-                Github
+                <i className='bx bx-play-circle' style={{ fontSize: '20px' }}></i>
+                Demo
               </Link>
               <Link
                 className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://x.com/harshbadhai28"
+                href="https://x.com/arcadedotapp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -48,7 +47,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <i className='bx bx-code-alt' style={{ fontSize: '20px' }} ></i>
-                Dorahacks
+                Colosseum
               </Link>
             </div>
 
@@ -62,7 +61,7 @@ export default function Home() {
             <div className=" gap-x-12 ring-1 ring-inset rounded-full ring-green-500">
               <Link
                 className="flex items-center place-items-start gap-2 px-5 text-green-500 font-medium py-1"
-                href="https://explorer.aptoslabs.com/?network=devnet"
+                href="https://explorer.solana.com/?cluster=testnet"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -70,7 +69,7 @@ export default function Home() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                 </span>
-                Live on Aptos Testnet
+                Live on Solana Testnet
               </Link>
             </div>
           </div>
@@ -83,7 +82,7 @@ export default function Home() {
           <div className="flex gap-4 justify-center items-center flex-row py-6 px-5 ">
             <Link
               className="w-1/2 sm:w-1/4 font-bold rounded-md border border-solid border-transparent transition-colors flex items-center justify-center bg-arcade-400 text-background gap-2 hover:bg-arcade-500 text-md  h-12"
-              href="/webapp"
+              href="/app"
 
             >
               Enter App
