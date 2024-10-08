@@ -6,7 +6,7 @@ export default function Game() {
 
     useEffect(() => {
         const script = document.createElement("script")
-        script.src = "Build/WebGL Build 11.loader.js"
+        script.src = "Build/arcadeweb.loader.js"
         script.async = true;
         document.body.appendChild(script);
         return () => {

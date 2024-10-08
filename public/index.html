@@ -17,6 +17,7 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
+      
     </div>
     <script>
 
@@ -51,11 +52,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL Build 11.loader.js";
+      var loaderUrl = buildUrl + "/arcadeweb.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL Build 11.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL Build 11.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGL Build 11.wasm.unityweb",
+        dataUrl: buildUrl + "/arcadeweb.data.unityweb",
+        frameworkUrl: buildUrl + "/arcadeweb.framework.js.unityweb",
+        codeUrl: buildUrl + "/arcadeweb.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "arcadeweb",
         productName: "arcadeweb",
@@ -110,7 +111,7 @@
           progressBarFull.style.width = 100 * progress + "%";
               }).then((unityInstance) => {
                 loadingBar.style.display = "none";
-                
+               
               }).catch((message) => {
                 alert(message);
               });
