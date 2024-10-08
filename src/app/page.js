@@ -42,7 +42,7 @@ export default function Home() {
               </Link>
               <Link
                 className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://dorahacks.io/buidl/16671"
+                href="https://arena.colosseum.org/projects/hackathon/arcade-app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
