@@ -89,7 +89,7 @@ export default function Home() {
             </Link>
             <Link
               className=" w-1/2 sm:w-1/4 font-bold rounded-md border border-solid border-white transition-colors flex items-center justify-center bg-transparent text-white gap-2  hover:bg-white hover:text-background text-md h-12"
-              href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+              href="https://drive.google.com/file/d/1oslQU1pc9giE5_rssFTYTskKLbOFwxC_/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
