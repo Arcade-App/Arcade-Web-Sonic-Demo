@@ -24,12 +24,12 @@ export default function Home() {
             <div className="flex gap-x-12">
               <Link
                 className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://github.com/Arcade-App"
+                href="https://youtu.be/fSUmnQs3dd4"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className='bx bx-play-circle' style={{ fontSize: '20px' }}></i>
-                Demo
+                App Demo
               </Link>
               <Link
                 className="flex items-center gap-2 hover:text-arcade-400"
