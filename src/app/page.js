@@ -61,7 +61,7 @@ export default function Home() {
             <div className=" gap-x-12 ring-1 ring-inset rounded-full ring-green-500">
               <Link
                 className="flex items-center place-items-start gap-2 px-5 text-green-500 font-medium py-1"
-                href="https://explorer.solana.com/?cluster=testnet"
+                href="https://explorer.sonic.game/address/4HWfzbQBmN95pktv6qgzpGbk9MHQW4DubRQQtWCFXMms?cluster=testnet"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -69,7 +69,7 @@ export default function Home() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                 </span>
-                Live on Solana Devnet
+                Live on Sonic Testnet
               </Link>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
             </Link>
             <Link
               className=" w-1/2 sm:w-1/4 font-bold rounded-md border border-solid border-white transition-colors flex items-center justify-center bg-transparent text-white gap-2  hover:bg-white hover:text-background text-md h-12"
-              href="https://drive.google.com/file/d/1oslQU1pc9giE5_rssFTYTskKLbOFwxC_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_T-guUxr3EDLTRXfXTz5B0MDX9z-1PN4/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
