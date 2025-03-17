@@ -1,3 +1,16 @@
+## Arcade Web
+
+Live at [Arcade Web Link](https://arcade-web-sonic-demo.vercel.app/)
+
+### Login Steps
+1. Go to [Arcade Web Link](https://arcade-web-sonic-demo.vercel.app/)
+2. Click on Enter App
+3. Click on Login
+4. Enter Username: mobius
+5. Enter Password: mobius
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
