@@ -40,6 +40,15 @@ export default function Home() {
                 <i className='bx bxl-twitter' style={{ fontSize: '20px' }}></i>
                 Twitter
               </Link>
+              <Link
+                className="flex items-center gap-2 hover:text-arcade-400"
+                href="https://github.com/Arcade-App/Arcade-Sonic-Rush"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className='bx bxl-github' style={{ fontSize: '20px' }}></i>
+                Github
+              </Link>
             </div>
 
 
