@@ -24,7 +24,7 @@ export default function Home() {
             <div className="flex gap-x-12">
               <Link
                 className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://youtu.be/n8jIOicpYhk"
+                href="https://drive.google.com/file/d/11vaOX5A4s63p_1rKsX7BYcE6il-Bu_gE/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -40,15 +40,6 @@ export default function Home() {
                 <i className='bx bxl-twitter' style={{ fontSize: '20px' }}></i>
                 Twitter
               </Link>
-              <Link
-                className="flex items-center gap-2 hover:text-arcade-400"
-                href="https://arena.colosseum.org/projects/hackathon/arcade-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className='bx bx-code-alt' style={{ fontSize: '20px' }} ></i>
-                Colosseum
-              </Link>
             </div>
 
 
@@ -61,7 +52,7 @@ export default function Home() {
             <div className=" gap-x-12 ring-1 ring-inset rounded-full ring-green-500">
               <Link
                 className="flex items-center place-items-start gap-2 px-5 text-green-500 font-medium py-1"
-                href="https://explorer.sonic.game/address/4HWfzbQBmN95pktv6qgzpGbk9MHQW4DubRQQtWCFXMms?cluster=testnet"
+                href="https://explorer.sonic.game/address/Btk5f4c3e542sPPEAjULLL9WTixJPts5p8G9fiF8R4jF?cluster=testnet.v1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -89,7 +80,7 @@ export default function Home() {
             </Link>
             <Link
               className=" w-1/2 sm:w-1/4 font-bold rounded-md border border-solid border-white transition-colors flex items-center justify-center bg-transparent text-white gap-2  hover:bg-white hover:text-background text-md h-12"
-              href="https://drive.google.com/file/d/1_T-guUxr3EDLTRXfXTz5B0MDX9z-1PN4/view?usp=sharing"
+              href="https://drive.google.com/file/d/15lvfHDhmxreA70_XCTgXbLUnAMFssONu/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
